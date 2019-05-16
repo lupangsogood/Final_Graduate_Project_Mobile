@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/topLayout"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:keepScreenOn="true">
+
+
+
+
+    <com.autchariya.kiklik.makeuptutorial4.ar.camera.CameraSourcePreview
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/preview">
+
+        <com.autchariya.kiklik.makeuptutorial4.ar.camera.GraphicOverlay
+            android:id="@+id/faceOverlay"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+    </com.autchariya.kiklik.makeuptutorial4.ar.camera.CameraSourcePreview>
+    <ImageView
+        android:id="@+id/gifImageView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="0dp" />
+
+    <ImageButton
+        android:id="@+id/flipButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:src="@drawable/switch_cameras"/>
+
+    <io.github.yavski.fabspeeddial.FabSpeedDial
+        android:id="@+id/btn_Mode1_Style1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        app:fabGravity="bottom_end"
+        app:fabMenu="@menu/main_menu"
+        app:fabDrawable="@drawable/woman_016"
+        app:miniFabBackgroundTintList="@array/fab_menu_item_colors"
+        app:miniFabTitleTextColorList="@array/fab_menu_text_colors"
+        app:miniFabDrawableTint="?attr/colorPrimaryDark"
+        app:miniFabTitleTextColor="?attr/colorPrimaryDark" />
+
+
+
+
+</RelativeLayout>

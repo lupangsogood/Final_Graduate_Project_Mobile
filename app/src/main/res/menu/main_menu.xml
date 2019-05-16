@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item
+        android:id="@+id/menu_LeftCheek"
+        android:icon="@drawable/brush_029"
+        android:title="LeftCheek"
+        android:orderInCategory="0"
+        />
+    <item
+        android:id="@+id/menu_RightCheek"
+        android:icon="@drawable/brush_029"
+        android:title="RightCheek"
+        android:orderInCategory="1"
+
+        />
+    <item
+        android:id="@+id/menu_Mouth"
+        android:icon="@drawable/lipstick_033"
+        android:title="Mouth"
+        android:orderInCategory="2"
+
+        />
+    <item
+        android:id="@+id/menu_Nose"
+        android:icon="@drawable/makeup_001"
+        android:title="Nose"
+        android:orderInCategory="3"
+
+        />
+    <item
+        android:id="@+id/menu_LeftEyeBrown"
+        android:icon="@drawable/liner_049"
+        android:title="LeftEyeBrown"
+        android:orderInCategory="4"
+
+        />
+    <item
+        android:id="@+id/menu_RightEyeBrown"
+        android:icon="@drawable/liner_049"
+        android:title="RightEyeBrown"
+        android:orderInCategory="5"
+
+        />
+
+
+
+</menu>

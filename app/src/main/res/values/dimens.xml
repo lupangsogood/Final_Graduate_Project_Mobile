@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="width">180dp</dimen>
+    <dimen name="MaginTop">20dp</dimen>
+    <dimen name="MarginStart">10dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="tab_max_width">264dp</dimen>
+    <dimen name="tab_padding_bottom">16dp</dimen>
+    <dimen name="tab_label">14sp</dimen>
+    <dimen name="custom_tab_layout_height">72dp</dimen>
+    <dimen name="paddingStyle">16dp</dimen>
+    <dimen name="sizeNameStyle">20sp</dimen>
+    <dimen name="btnSize">20dp</dimen>
+    <dimen name="btnTextSize">10sp</dimen>
+    <dimen name="imageStyleWidth">150dp</dimen>
+    <dimen name="thumbnail_size">100dp</dimen>
+    <dimen name="recycler_size">100dp</dimen>
+    <dimen name="thumbnail_horizontal_padding">8dp</dimen>
+    <dimen name="thumbnail_vertical_padding">10dp</dimen>
+    <!-- FaceGraphic dimensions -->
+    <dimen name="eyeOutlineStroke">5dp</dimen>
+    <dimen name="textSize">10dp</dimen>
+    <dimen name="hintStroke">3dp</dimen>
+
+</resources>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".dialog.SelectDialog">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:scaleType="fitXY"
+            android:src="@drawable/markerfont2"
+
+            />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:scaleType="fitXY"
+            android:src="@drawable/videofont2" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_tutorial"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginEnd="100dp"
+        android:layout_marginBottom="100dp"
+        android:text="@string/BtnStart"
+        android:textSize="@dimen/btnTextSize" />
+    <Button
+        android:id="@+id/btn_video"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:text="@string/BtnStart"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="100dp"
+        android:textSize="@dimen/btnTextSize"
+        />
+    <FrameLayout
+        android:id="@+id/fragment_selecttutorial"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"></FrameLayout>
+
+
+</RelativeLayout>

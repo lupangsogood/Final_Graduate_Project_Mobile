@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".camera.FillterImageActivity">
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:background="@color/placeholder_background"
+        android:scaleType="fitStart"
+        />
+
+    <RelativeLayout
+        android:id="@+id/R_view"
+        android:layout_width="match_parent"
+        android:layout_height="167dp"
+        android:layout_alignBottom="@+id/imageView"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:background="@color/thumb_background_color">
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/thumbnails"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/thumbnail_vertical_padding"
+            android:layout_marginTop="@dimen/thumbnail_vertical_padding"
+            android:clipToPadding="false" />
+
+    </RelativeLayout>
+    <Button
+        android:id="@+id/next_btn"
+        android:layout_alignBottom="@+id/R_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="NEXT"/>
+</RelativeLayout>

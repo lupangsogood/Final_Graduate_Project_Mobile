@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".mode.ModeActivity">
+
+    <RelativeLayout
+        android:id="@+id/r1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <Toolbar
+            android:id="@+id/tb1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:navigationIcon="@drawable/ic_action_back">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="STYLE"
+                android:textColor="@color/colorTextTab"
+                android:textSize="20sp" />
+        </Toolbar>
+
+
+        <android.support.design.widget.TabLayout
+            android:id="@+id/tab_layout"
+            android:layout_width="match_parent"
+            android:layout_height="?actionBarSize"
+            android:layout_below="@+id/tb1"
+            app:tabIndicatorColor="@color/grey"
+            app:tabSelectedTextColor="@color/colorPink"
+            app:tabTextColor="@color/grey" />
+
+        <android.support.v4.view.ViewPager
+            android:id="@+id/view_pager"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/tab_layout" />
+    </RelativeLayout>
+    <!--app:tabIndicatorColor="@color/dark_slate_blue"-->
+    <!--app:tabSelectedTextColor="@color/dark_slate_blue"-->
+    <!--app:tabTextAppearance="@style/TextSearchPoTab"-->
+    <!--app:tabTextColor="@color/blue_grey"-->
+    <!--<RelativeLayout-->
+    <!--app:layout_constraintTop_toBottomOf="@+id/r1"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content">-->
+
+    <!--</RelativeLayout>-->
+    <FrameLayout
+        android:id="@+id/fragment_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"></FrameLayout>
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".mode.Mode4Fragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+        android:fitsSystemWindows="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:background="@color/colorWhite">
+
+            <RelativeLayout
+                android:id="@+id/rl1"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:adjustViewBounds="true"
+                    android:src="@drawable/healthygirl" />
+
+                <Button
+                    android:id="@+id/btn_simulate"
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/btnSize"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginStart="20dp"
+                    android:background="@color/colorbtnSimulate"
+                    android:text="@string/BtnSimulate"
+                    android:textColor="@color/colorWhite"
+                    android:textSize="@dimen/btnTextSize"
+
+                    />
+
+                <Button
+                    android:id="@+id/btn_tutorial"
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/btnSize"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginStart="8dp"
+                    android:layout_toEndOf="@+id/btn_simulate"
+                    android:background="@color/colorbtnTutorial"
+                    android:text="@string/BtnTutorial"
+                    android:textColor="@color/colorWhite"
+                    android:textSize="@dimen/btnTextSize" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="HealthyGirl"
+                    android:textColor="@color/colorWhite"
+                    android:textSize="@dimen/sizeNameStyle"
+                    android:textStyle="bold" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_below="@id/rl1"
+                android:layout_weight="0.5">
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                        <ImageView
+                            android:id="@+id/imv_working2"
+                            android:layout_width="@dimen/imageStyleWidth"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentStart="true"
+                            android:adjustViewBounds="true"
+                            android:padding="@dimen/paddingStyle"
+                            android:src="@drawable/fitnesslook" />
+
+                        <Button
+                            android:id="@+id/btn_simulate1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="@dimen/btnSize"
+                            android:layout_centerVertical="true"
+                            android:layout_toEndOf="@+id/imv_working2"
+                            android:background="@color/colorbtnSimulate"
+                            android:text="@string/BtnSimulate"
+                            android:textColor="@color/colorWhite"
+                            android:textSize="@dimen/btnTextSize" />
+
+                        <Button
+                            android:id="@+id/btn_tutorial1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="@dimen/btnSize"
+                            android:layout_centerVertical="true"
+                            android:layout_marginStart="8dp"
+                            android:layout_toEndOf="@+id/btn_simulate1"
+                            android:background="@color/colorbtnTutorial"
+                            android:text="@string/BtnTutorial"
+                            android:textColor="@color/colorWhite"
+                            android:textSize="@dimen/btnTextSize" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentTop="true"
+                            android:layout_toEndOf="@+id/imv_working2"
+                            android:paddingTop="@dimen/paddingStyle"
+                            android:text="FitnessLook"
+                            android:textSize="@dimen/sizeNameStyle"
+                            android:textStyle="bold" />
+                    </RelativeLayout>
+                </android.support.v7.widget.CardView>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.5">
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                        <ImageView
+                            android:id="@+id/imv_working3"
+                            android:layout_width="@dimen/imageStyleWidth"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentStart="true"
+                            android:adjustViewBounds="true"
+                            android:padding="@dimen/paddingStyle"
+                            android:src="@drawable/exersexy" />
+
+                        <Button
+                            android:id="@+id/btn_simulate2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="@dimen/btnSize"
+                            android:layout_centerVertical="true"
+                            android:layout_toEndOf="@+id/imv_working3"
+                            android:background="@color/colorbtnSimulate"
+                            android:text="@string/BtnSimulate"
+                            android:textColor="@color/colorWhite"
+                            android:textSize="@dimen/btnTextSize" />
+
+                        <Button
+                            android:id="@+id/btn_tutorial2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="@dimen/btnSize"
+                            android:layout_centerVertical="true"
+                            android:layout_marginStart="8dp"
+                            android:layout_toEndOf="@+id/btn_simulate2"
+                            android:background="@color/colorbtnTutorial"
+                            android:text="@string/BtnTutorial"
+                            android:textColor="@color/colorWhite"
+                            android:textSize="@dimen/btnTextSize" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentTop="true"
+                            android:layout_toEndOf="@+id/imv_working3"
+                            android:paddingTop="@dimen/paddingStyle"
+                            android:text="ExerSexy"
+                            android:textSize="@dimen/sizeNameStyle"
+                            android:textStyle="bold" />
+                    </RelativeLayout>
+                </android.support.v7.widget.CardView>
+            </RelativeLayout>
+
+        </LinearLayout>
+
+    </android.support.v4.widget.NestedScrollView>
+
+</FrameLayout>

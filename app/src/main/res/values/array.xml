@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <integer-array name="fab_menu_item_colors">
+        <item>@color/colorWhiteBG</item>
+
+        <item>@color/colorWhiteBG</item>
+
+        <item>@color/colorWhiteBG</item>
+
+        <item>@color/colorWhiteBG</item>
+
+        <item>@color/colorWhiteBG</item>
+
+        <item>@color/colorWhiteBG</item>
+    </integer-array>
+
+
+    <integer-array name="fab_menu_text_colors">
+        <item>@color/colorPrimaryDark</item>
+
+        <item>@color/colorPrimaryDark</item>
+
+        <item>@color/colorPrimaryDark</item>
+
+        <item>@color/colorPrimaryDark</item>
+
+        <item>@color/colorPrimaryDark</item>
+
+        <item>@color/colorPrimaryDark</item>
+    </integer-array>
+
+
+</resources>

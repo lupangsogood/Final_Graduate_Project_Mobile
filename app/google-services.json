@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "501634770617",
+    "firebase_url": "https://projectsenior-33852.firebaseio.com",
+    "project_id": "projectsenior-33852",
+    "storage_bucket": "projectsenior-33852.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:501634770617:android:6a5db39b499310b0",
+        "android_client_info": {
+          "package_name": "com.autchariya.kiklik.makeuptutorial4"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "501634770617-183dvjg5abk1hai6mq2vhk5eetv212bn.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.autchariya.kiklik.makeuptutorial4",
+            "certificate_hash": "9cb739e0cf55e8f5b09910254d1242d4d8dd9434"
+          }
+        },
+        {
+          "client_id": "501634770617-1hvppc14qjlika75hqp5ag2e6qc5m3fc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBfD-c3443BI_s77oxmiz1g6kz5Q_MDSaA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "501634770617-1hvppc14qjlika75hqp5ag2e6qc5m3fc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

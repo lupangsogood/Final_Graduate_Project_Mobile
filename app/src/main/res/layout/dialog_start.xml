@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".dialog.StartDialog">
+
+    <!-- TODO: Update blank fragment layout -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+
+        >
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop"
+            android:src="@drawable/bg1" />
+
+        <TextView
+            android:id="@+id/tv_text1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="8dp"
+            android:layout_marginTop="16dp"
+            android:text="Wellcome to Makeup"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tv_text2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_below="@+id/tv_text1"
+            android:layout_marginEnd="8dp"
+            android:layout_marginTop="16dp"
+            android:text="Your one Stop app"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tv_text3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_below="@+id/tv_text2"
+            android:layout_marginEnd="8dp"
+            android:layout_marginTop="16dp"
+            android:text="for all Tutorial"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/btn_start"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="48dp"
+        android:text="START!"
+        android:textColor="@color/colorWhite"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent" />
+
+</android.support.constraint.ConstraintLayout>
